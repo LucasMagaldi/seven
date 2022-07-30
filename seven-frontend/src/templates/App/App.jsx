@@ -1,10 +1,11 @@
 import React from "react";
+import { Wrapper } from './styles'
 
 function App() {
   return (
-    <div className="App">
+    <Wrapper className="App">
       HOME
-    </div>
+    </Wrapper>
   );
 }
 
