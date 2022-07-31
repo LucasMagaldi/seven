@@ -4,7 +4,7 @@ import { Wrapper } from './styles'
 function App() {
   return (
     <Wrapper className="App">
-      HOME
+      <h1>Home</h1>
     </Wrapper>
   );
 }
