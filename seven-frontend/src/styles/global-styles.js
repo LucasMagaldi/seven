@@ -5,15 +5,18 @@ const GlobalStyles = createGlobalStyle`
     * {
         margin:0;
         padding:0;
+        box-sizing: border-box;
     }
 
-    html {
+    html, body, #root {
+        height:100%;
         font-size: 62.5%
     }
 
     body {
         font-size: 1.6rem;
-        color: ${({ theme }) => theme.colors.white};
+       // color: ${({ theme }) => theme.colors.white};
+       color: #000;
         font-family: ${({theme}) => theme.font.family.secondary}
     }
 `
