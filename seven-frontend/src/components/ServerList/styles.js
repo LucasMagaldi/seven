@@ -7,7 +7,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
 
-    background: #202225;
+    background: ${({ theme }) => theme.colors.tertiary};
 
     max-height: 100vh;
 
