@@ -15,8 +15,8 @@ const GlobalStyles = createGlobalStyle`
 
     body {
         font-size: 1.6rem;
-       // color: ${({ theme }) => theme.colors.white};
-       color: #000;
+       color: ${({theme}) => theme.colors.white};
+       
         font-family: ${({theme}) => theme.font.family.secondary}
     }
 `

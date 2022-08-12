@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 
 const ServerButton = ({
   selected,
@@ -7,7 +8,7 @@ const ServerButton = ({
   mentions,
 }) => {
   return (
-    <div>ServerButton</div>
+    <div>Oi</div>
   )
 }
 

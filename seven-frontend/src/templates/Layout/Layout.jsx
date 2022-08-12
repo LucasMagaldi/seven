@@ -1,13 +1,13 @@
 import React from 'react';
 import ServerList from '../../components/ServerList/ServerList';
 
-import { Grid } from './styles';
+import { Grid, Wrapper } from './styles';
 
 const Layout = () => {
   return (
-    <Grid>
+    <Wrapper>
         <ServerList />
-    </Grid>
+    </Wrapper>
   )
 }
 

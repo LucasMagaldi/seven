@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    grid-area: SL;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,6 +8,6 @@ export const Container = styled.div`
     background: ${({ theme }) => theme.colors.tertiary};
 
     max-height: 100vh;
-
+    width: 72px;
     
 `

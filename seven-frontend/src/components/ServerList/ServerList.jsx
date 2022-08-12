@@ -1,11 +1,13 @@
 import React from 'react';
+import ServerButton from '../ServerButton/ServerButton';
 
 import { Container } from './styles';
 
 const ServerList = () => {
   return (
     <Container>
-        <h5>90</h5>
+      Oi
+        <ServerButton />
     </Container>
   )
 }
