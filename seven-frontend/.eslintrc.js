@@ -23,6 +23,7 @@ module.exports =  {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
+  
   plugins: ['react', 'prettier', 'react-hooks'],
   settings: {
     react: {
@@ -30,6 +31,6 @@ module.exports =  {
     },
   },
   rules: {
-    'react/react-in-jsx-scope': 'off',
+    
   },
   };
