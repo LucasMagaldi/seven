@@ -3,7 +3,7 @@ import { Wrapper } from './styles';
 
 const Appbar = () => {
   return (
-    <Wrapper    >Appbar</Wrapper    >
+    <Wrapper>Appbar</Wrapper>
   )
 }
 

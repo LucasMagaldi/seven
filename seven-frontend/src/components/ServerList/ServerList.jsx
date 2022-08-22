@@ -1,13 +1,16 @@
 import React from 'react';
+
+import { AiOutlineUsergroupAdd } from '../../styles/Icons/index';
 import ServerButton from '../ServerButton/ServerButton';
 
-import { Container } from './styles';
+import { Container, MainButton } from './styles';
 
 const ServerList = () => {
   return (
     <Container>
-      Oi
-        <ServerButton />
+        <MainButton>
+          <AiOutlineUsergroupAdd />
+        </MainButton>
     </Container>
   )
 }
