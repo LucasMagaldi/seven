@@ -1,11 +1,15 @@
 import React from 'react';
 
-import { Wrapper } from './style';
+import { Wrapper, AddFriend } from './style';
 
 
 const FriendsBar = () => {
   return (
-    <Wrapper>FriendsBar</Wrapper>
+    <Wrapper>
+      <AddFriend>
+        Add Friend
+      </AddFriend>
+    </Wrapper>
   )
 }
 

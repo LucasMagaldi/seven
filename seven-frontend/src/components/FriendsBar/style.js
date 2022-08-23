@@ -9,3 +9,13 @@ export const Wrapper = styled.div`
     align-items: center;
     background: ${({ theme }) => theme.colors.secondary};
 `
+
+export const AddFriend = styled.button`
+    margin-top: 10px;
+    width: 80%;
+    height: 30px;
+    background: #3ba55d;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+`
