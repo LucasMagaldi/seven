@@ -19,3 +19,28 @@ export const AddFriend = styled.button`
     border-radius: 10px;
     cursor: pointer;
 `
+
+export const Title = styled.h3`
+    text-transform: uppercase;
+    color: #8e9297;
+    font-size:14px;
+    margin-top: 10px;
+`
+
+export const FriendsList = styled.div`
+    width: 100%;
+    height: calc(100% - 130px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+`
+
+export const PendingList = styled.div`
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow:auto;
+`

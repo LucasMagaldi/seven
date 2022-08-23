@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Wrapper, AddFriend } from './style';
+import { Wrapper, AddFriend, Title, FriendsList, PendingList } from './style';
 
 
 const FriendsBar = () => {
@@ -9,6 +9,16 @@ const FriendsBar = () => {
       <AddFriend>
         Add Friend
       </AddFriend>
+      <Title>Private Messages</Title>
+      <FriendsList>
+        <h2>2</h2>
+        <h3>3</h3>
+      </FriendsList>
+      <Title>Pending Invitations</Title>
+      <PendingList>
+        <h2>2</h2>
+        <h3>3</h3>
+      </PendingList>
     </Wrapper>
   )
 }
